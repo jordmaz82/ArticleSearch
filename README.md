@@ -6,7 +6,7 @@ The source code and all the unit tests can be executed from within Xcode.
 
 #Instructions
 
-Using the supplied .ZIP file:
+###Using the supplied .ZIP file:
 
 1. Open the .ZIP file containing the UNIX executable to a MacOSX machine and copy to a directory of your choice. 
 2. Open up an instsance of Terminal
@@ -33,7 +33,7 @@ E.g. ./ArticleSearch -showtests`
 Follow the instructions to perform a search against the articles.
 
 
-Building from Xcode:
+###Building from Xcode:
 
 1. Clone the repository https://github.com/jordmaz82/ArticleSearch.git
 2. Open the project by double clicking the .xcopeproj file
