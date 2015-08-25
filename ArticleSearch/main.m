@@ -64,9 +64,9 @@ int main(int argc, const char *argv[])
 
         NSArray *results =[search  articlesWithPredicate:[NSPredicate predicateFromSearchTerms:arrayOfSearchTerms Operator:operator]];
 
-        MDLog(@"************************************************************************************");
+        MDLog(@"********************************************************************************");
         MDLog(@"Results: %@", results.count > 0 ? results : @"There are no matches for that search string");
-        MDLog(@"************************************************************************************");
+        MDLog(@"********************************************************************************");
     }
     return 0;
 }
