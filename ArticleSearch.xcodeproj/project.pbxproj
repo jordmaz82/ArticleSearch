@@ -22,7 +22,6 @@
 		8E383FC81B8D19DE00E2D2EA /* ParamChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E383FC71B8D19DE00E2D2EA /* ParamChecker.m */; };
 		8E383FCA1B8D1F6F00E2D2EA /* ParamCheckerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E383FC91B8D1F6F00E2D2EA /* ParamCheckerTests.m */; };
 		8E383FCB1B8D1FDC00E2D2EA /* ParamChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E383FC71B8D19DE00E2D2EA /* ParamChecker.m */; };
-		8E383FCD1B8D254800E2D2EA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 8E383FCC1B8D254800E2D2EA /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,7 +55,6 @@
 		8E383FC61B8D19DE00E2D2EA /* ParamChecker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParamChecker.h; sourceTree = "<group>"; };
 		8E383FC71B8D19DE00E2D2EA /* ParamChecker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParamChecker.m; sourceTree = "<group>"; };
 		8E383FC91B8D1F6F00E2D2EA /* ParamCheckerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParamCheckerTests.m; sourceTree = "<group>"; };
-		8E383FCC1B8D254800E2D2EA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +97,6 @@
 			isa = PBXGroup;
 			children = (
 				8E383FC51B8D19B800E2D2EA /* Helpers */,
-				8E383FC41B8D0CFA00E2D2EA /* README */,
 				8E383FAD1B8D045A00E2D2EA /* Classes */,
 				8E383F991B8D036D00E2D2EA /* main.m */,
 			);
@@ -139,14 +136,6 @@
 				8E383FB81B8D04BC00E2D2EA /* Article.m */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
-		};
-		8E383FC41B8D0CFA00E2D2EA /* README */ = {
-			isa = PBXGroup;
-			children = (
-				8E383FCC1B8D254800E2D2EA /* README.md */,
-			);
-			name = README;
 			sourceTree = "<group>";
 		};
 		8E383FC51B8D19B800E2D2EA /* Helpers */ = {
@@ -248,7 +237,6 @@
 				8E383FB91B8D04BC00E2D2EA /* Article.m in Sources */,
 				8E383FC81B8D19DE00E2D2EA /* ParamChecker.m in Sources */,
 				8E383FB61B8D04B000E2D2EA /* NSPredicate+SearchType.m in Sources */,
-				8E383FCD1B8D254800E2D2EA /* README.md in Sources */,
 				8E383F9A1B8D036D00E2D2EA /* main.m in Sources */,
 				8E383FB31B8D047600E2D2EA /* Load.m in Sources */,
 				8E383FB01B8D046E00E2D2EA /* Search.m in Sources */,
