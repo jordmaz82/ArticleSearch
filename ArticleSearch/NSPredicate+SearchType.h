@@ -19,5 +19,6 @@ typedef enum {
 @interface NSPredicate (SearchType)
 
 + (NSPredicate *)predicateForSearchType:(SearchPredicateType)searchType;
++ (NSPredicate *)predicateFromSearchTerms:(NSArray *)searchTerms Operator:(NSString *) suppliedOperator;
 
 @end

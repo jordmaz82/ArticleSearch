@@ -35,4 +35,18 @@
     return predicate;
 }
 
++ (NSPredicate *)predicateFromSearchTerms:(NSArray *)searchTerms Operator:(NSString *)suppliedOperator
+{
+    NSMutableString *predicateString = [[NSMutableString alloc] init];
+    for (int i = 0; i < searchTerms.count; i++) {
+        if (i == searchTerms.count - 1) {
+            [predicateString appendFormat:@"(text contains[cd] '%@')", searchTerms[i]];
+        }
+        else {
+            [predicateString appendFormat:@"(text contains[cd] '%@') %@ ", searchTerms[i], suppliedOperator];
+        }
+    }
+    return [self predicateWithFormat:[predicateString copy]];
+}
+
 @end
